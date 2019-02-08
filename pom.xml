@@ -7,9 +7,9 @@
     <groupId>com.github.spring_examples</groupId>
     <artifactId>spring_examples</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1</version>
+    <version>1.0</version>
 
     <modules>
-      <module>simple_spring_boot_app</module>
+      <module>01-simple_spring_boot_app</module>
     </modules>
 </project>
