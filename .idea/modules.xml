@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-spring_framework_example/00-spring_framework_example.iml" filepath="$PROJECT_DIR$/01-spring_framework_example/00-spring_framework_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00-spring_framework_example/00-spring_framework_example.iml" filepath="$PROJECT_DIR$/00-spring_framework_example/00-spring_framework_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-simple_spring_boot_app/01-simple_spring_boot_app.iml" filepath="$PROJECT_DIR$/02-simple_spring_boot_app/01-simple_spring_boot_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-simple_spring_boot_app/01-simple_spring_boot_app.iml" filepath="$PROJECT_DIR$/01-simple_spring_boot_app/01-simple_spring_boot_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-spring_framework_example/01-spring_framework_example.iml" filepath="$PROJECT_DIR$/01-spring_framework_example/01-spring_framework_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-simple_spring_boot_app/02-simple_spring_boot_app.iml" filepath="$PROJECT_DIR$/02-simple_spring_boot_app/02-simple_spring_boot_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-init_destroy_method/03-init_destroy_method.iml" filepath="$PROJECT_DIR$/03-init_destroy_method/03-init_destroy_method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-spring_bean_post_processor/03-spring_bean_post_processor.iml" filepath="$PROJECT_DIR$/04-spring_bean_post_processor/03-spring_bean_post_processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-InitializingBean_DestroyBean_interfaces/04-InitializingBean_DestroyBean_interfaces.iml" filepath="$PROJECT_DIR$/04-InitializingBean_DestroyBean_interfaces/04-InitializingBean_DestroyBean_interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-spring_bean_post_processor/04-spring_bean_post_processor.iml" filepath="$PROJECT_DIR$/04-spring_bean_post_processor/04-spring_bean_post_processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/99-final-work/SpringSecurityH2Integration.iml" filepath="$PROJECT_DIR$/99-final-work/SpringSecurityH2Integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/99-final-work/spring-boot-demo.iml" filepath="$PROJECT_DIR$/99-final-work/spring-boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_examples.iml" filepath="$PROJECT_DIR$/spring_examples.iml" />
+    </modules>
+  </component>
+</project>

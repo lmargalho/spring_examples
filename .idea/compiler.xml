@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="00-spring_framework_example" />
+        <module name="01-simple_spring_boot_app" />
+        <module name="01-spring_framework_example" />
+        <module name="02-simple_spring_boot_app" />
+        <module name="03-init_destroy_method" />
+        <module name="03-spring_bean_post_processor" />
+        <module name="04-InitializingBean_DestroyBean_interfaces" />
+        <module name="04-spring_bean_post_processor" />
+        <module name="spring-boot-demo" />
+        <module name="SpringSecurityH2Integration" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="00-spring_framework_example" target="1.5" />
+      <module name="01-simple_spring_boot_app" target="1.8" />
+      <module name="01-spring_framework_example" target="1.5" />
+      <module name="02-simple_spring_boot_app" target="1.8" />
+      <module name="03-init_destroy_method" target="1.5" />
+      <module name="03-spring_bean_post_processor" target="6" />
+      <module name="04-InitializingBean_DestroyBean_interfaces" target="1.5" />
+      <module name="04-spring_bean_post_processor" target="6" />
+      <module name="spring-boot-demo" target="1.8" />
+      <module name="spring_examples" target="1.5" />
+      <module name="SpringSecurityH2Integration" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-simple_spring_boot_app" options="-parameters" />
+      <module name="02-simple_spring_boot_app" options="-parameters" />
+    </option>
+  </component>
+</project>
