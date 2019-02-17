@@ -1,0 +1,14 @@
+target
+build
+classes
+.gradle
+logs
+*.iml
+.idea/*
+!.idea/runConfigurations
+out
+gc.log
+.gitconfig
+.project
+.settings
+.classpath
