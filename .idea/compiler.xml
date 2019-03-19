@@ -9,33 +9,79 @@
         <module name="00-spring_framework_example" />
         <module name="01-simple_spring_boot_app" />
         <module name="01-spring_framework_example" />
+        <module name="01-spring_framework_example (1)" />
         <module name="02-simple_spring_boot_app" />
         <module name="03-init_destroy_method" />
         <module name="03-spring_bean_post_processor" />
         <module name="04-InitializingBean_DestroyBean_interfaces" />
         <module name="04-spring_bean_post_processor" />
+        <module name="accessing-data-jpa" />
+        <module name="final-work" />
+        <module name="gs-accessing-data-jpa" />
+        <module name="init_destroy_method" />
+        <module name="InitializingBean_DestroyBean_interfaces" />
+        <module name="myspringwebfluxplanet" />
+        <module name="simple_mvc_spring_boot" />
+        <module name="simple_spring_boot_app" />
         <module name="spring-boot-demo" />
+        <module name="spring-boot-hibernate-example" />
+        <module name="spring-boot-sample-aop" />
+        <module name="spring4-hibernate5-example" />
+        <module name="spring_bean_post_processor" />
+        <module name="spring_boot_webflux" />
+        <module name="spring_framework_example" />
+        <module name="spring_rest_example" />
+        <module name="SpringAOPExample" />
         <module name="SpringSecurityH2Integration" />
+        <module name="zz-simple_spring_boot_app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="00-spring_framework_example" target="1.5" />
       <module name="01-simple_spring_boot_app" target="1.8" />
       <module name="01-spring_framework_example" target="1.5" />
+      <module name="01-spring_framework_example (1)" target="1.5" />
       <module name="02-simple_spring_boot_app" target="1.8" />
       <module name="03-init_destroy_method" target="1.5" />
       <module name="03-spring_bean_post_processor" target="6" />
       <module name="04-InitializingBean_DestroyBean_interfaces" target="1.5" />
       <module name="04-spring_bean_post_processor" target="6" />
+      <module name="0x-spring_framework_example" target="1.5" />
+      <module name="accessing-data-jpa" target="1.8" />
+      <module name="final-work" target="1.8" />
+      <module name="gs-accessing-data-jpa" target="1.8" />
+      <module name="init_destroy_method" target="1.5" />
+      <module name="InitializingBean_DestroyBean_interfaces" target="1.5" />
+      <module name="myspringwebfluxplanet" target="1.9" />
+      <module name="simple_mvc_spring_boot" target="1.8" />
+      <module name="simple_spring_boot_app" target="1.8" />
       <module name="spring-boot-demo" target="1.8" />
+      <module name="spring-boot-hibernate-example" target="1.8" />
+      <module name="spring-boot-sample-aop" target="1.8" />
+      <module name="spring4-hibernate5-example" target="1.8" />
+      <module name="spring_bean_post_processor" target="6" />
+      <module name="spring_boot_webflux" target="1.9" />
       <module name="spring_examples" target="1.5" />
+      <module name="spring_framework_example" target="1.5" />
+      <module name="spring_rest_example" target="1.8" />
+      <module name="SpringAOPExample" target="1.5" />
       <module name="SpringSecurityH2Integration" target="1.8" />
+      <module name="zz-simple_spring_boot_app" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="01-simple_spring_boot_app" options="-parameters" />
       <module name="02-simple_spring_boot_app" options="-parameters" />
+      <module name="accessing-data-jpa" options="-parameters" />
+      <module name="gs-accessing-data-jpa" options="-parameters" />
+      <module name="myspringwebfluxplanet" options="-parameters" />
+      <module name="simple_mvc_spring_boot" options="-parameters" />
+      <module name="simple_spring_boot_app" options="-parameters" />
+      <module name="spring-boot-sample-aop" options="-parameters" />
+      <module name="spring_boot_webflux" options="-parameters" />
+      <module name="spring_rest_example" options="-parameters" />
+      <module name="zz-simple_spring_boot_app" options="-parameters" />
     </option>
   </component>
 </project>

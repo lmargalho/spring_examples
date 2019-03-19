@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id = "helloWorld" class = "com.github.spring_examples2.HelloWorldService">
+        <constructor-arg index="0" ref="helloWorld2" />
+        <!-- <property name = "message" value = "Hello World!"/>-->
+        <property name="lst">
+            <set>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+            </set>
+        </property>
+    </bean>
+    <bean id = "helloWorld2" class = "com.github.spring_examples2.HelloWorldService">
+    </bean>
+</beans>

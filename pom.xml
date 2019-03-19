@@ -10,9 +10,18 @@
     <version>1.0</version>
 
     <modules>
-        <module>01-spring_framework_example</module>
-        <module>02-simple_spring_boot_app</module>
-        <module>03-init_destroy_method</module>
-        <module>04-InitializingBean_DestroyBean_interfaces</module>
+        <module>accessing-data-jpa</module>
+        <module>init_destroy_method</module>
+        <module>InitializingBean_DestroyBean_interfaces</module>
+        <module>simple_mvc_spring_boot</module>
+        <module>simple_spring_boot_app</module>
+        <module>spring_bean_post_processor</module>
+        <module>spring_boot_webflux</module>
+        <module>spring_framework_example</module>
+        <module>spring-boot-hibernate-example</module>
+        <module>spring-boot-sample-aop</module>
+        <module>spring4-hibernate5-example-master</module>
+        <module>SpringAOPExample</module>
+        <module>spring_rest_example</module>
     </modules>
 </project>
