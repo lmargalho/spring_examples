@@ -1,12 +1,13 @@
 package com.workshop.repository;
 
 import com.workshop.entity.Entry;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
-public class BlogRepository {
+import java.util.List;
 
-    public Entry getById(Long id) {
-        return new Entry(1, "Demo", "Description");
-    }
+@Repository
+public interface BlogRepository extends JpaRepository<Entry, Long> {
+
+    List<Entry> findByTitle(String title);
 }

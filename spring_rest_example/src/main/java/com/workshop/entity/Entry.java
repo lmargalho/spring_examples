@@ -1,14 +1,29 @@
 package com.workshop.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
 
+@Entity
 public class Entry {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
+
+    @NotNull
     private String title;
+
+    @NotNull
     private String content;
 
-    public Entry(long id, String title, String content) {
-        this.id = id;
+    public Entry(){
+        super();
+    }
+
+    public Entry(String title, String content) {
         this.title = title;
         this.content = content;
     }
@@ -33,7 +48,4 @@ public class Entry {
         return id;
     }
 
-    public void setId(long id) {
-        this.id = id;
-    }
 }
