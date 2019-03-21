@@ -37,6 +37,11 @@ public class BlogController {
         return Collections.emptyList();
     }
 
+    @GetMapping("/getInfo")
+    public String getInfo() {
+        return "TEST";
+    }
+
     @GetMapping("/blog/{id}")
     // /blog/1?withLastUpdateTime=true
     public ResponseEntity<BlogEntry> getBlogById(@PathVariable("id") Long id,
@@ -63,5 +68,7 @@ public class BlogController {
 
         return new ResponseEntity<>(HttpStatus.ACCEPTED);
     }
+
+
 
 }

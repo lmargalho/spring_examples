@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 <head>
     <title>Spring Security Example</title>
+
 </head>
 <body>
-<h1>Welcome!</h1>
-
+<div id="app-5">
+    <p>{{ message }}</p>
+    <button v-on:click="getInfo">getInfo</button>
+</div>
 <p>Click <a th:href="@{/hello}">here</a> to see a greeting.</p>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+<script>
+    var app5 = new Vue({
+        el: '#app-5',
+        data: {
+            message: 'Hello Vue.js!'
+        },
+        methods: {
+            getInfo: function () {
+                this.loading = true;
+
+                axios.get("http://localhost:8080/getInfo").then((response)  =>  {
+                    this.loading = false;
+                    this.message = response.data;
+                }, (error) => {
+                    this.loading = false;
+                })
+            }
+        }
+    })
+
+</script>
 </html>
